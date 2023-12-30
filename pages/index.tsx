@@ -15,6 +15,7 @@ export default function Home() {
           alt="Kosmo Production Logo"
           width={200}
           height={200}
+          className="w-40 md:w-60"
         />
       </motion.div>
 
@@ -24,10 +25,10 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, ease: "easeInOut" }}
       >
-        <h1 className="text-center text-white text-5xl font-semibold">
+        <h1 className="text-center text-white text-3xl md:text-5xl font-semibold">
           Coming Soon
         </h1>
-        <p className="text-center text-white text-xl text-opacity-40 w-[32rem]">
+        <p className="text-center text-white text-lg md:text-xl text-opacity-40 w-[20rem] md:w-[32rem]">
           We are coming soon! Currently, we are working hard to give you the
           best experience! See you soon!
         </p>
