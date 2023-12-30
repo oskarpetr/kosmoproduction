@@ -29,7 +29,7 @@ export default function Home() {
           Coming Soon
         </h1>
         <p className="text-center text-white text-lg md:text-xl text-opacity-40 w-[20rem] md:w-[32rem]">
-          We are coming soon! Currently, we are working hard to give you the
+          Currently, we are working hard to give you the
           best experience! See you soon!
         </p>
       </motion.div>
